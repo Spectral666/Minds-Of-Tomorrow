@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .title{
+    margin: 150px;
+}
+
+header .title h1{
+    font-size: 6vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* SECCIÓN 1 */
+
+.kids{
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kids .column-1{
+    width: 50%;
+    padding: 100px;
+}
+
+.kids .column-1 h2{
+    font-size: 5vw;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+
+.kids .column-1 p{
+    font-size: 50px;
+}
+
+.kids .column-2{
+    width: 50%;
+    padding: auto;
+}
+
+.kids .column-2 img{
+    width: 700px;
+}
+
+/* SECCIÓN 2 */
+
+.ages{
+    width: 100%;
+    height: 700px;
+    background: rgb(74, 238, 161);
+}
+
+.ages h2{
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 70px;
+    text-align: center;
+}
+
+.ages .gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ages .gallery .element-g{
+    margin: 0px 50px;
+}
+
+.ages .gallery .element-g img{
+    width: 280px;
+}
+.ages .gallery .element-g p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* SECCIÓN 3 */
+
+.studio{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio .column-1{
+    width: 50%;
+    padding: 100px 10px 100px 100px;
+}
+
+.studio .column-1 img{
+    width: 800px;
+}
+
+.studio .column-2{
+    width: 50%;
+    padding: 100px 100px 100px 10px;
+}
+
+.studio .column-2 h2{
+    font-size: 5vw;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+
+.studio .column-2 p{
+    font-size: 50px;
+}
+
+/* SECCIÓN 4 */
+
+.banner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .banner-element{
+    width: 25%;
+}
+
+.banner .banner-element img{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECCIÓN 5 */
+
+.eslogan{
+    width: 100%;
+    height: 400px;
+    background: rgb(99, 166, 255);
+}
+
+.eslogan h2{
+    padding: 80px 120px;
+    font-size: 5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 250px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+footer .column-3{
+    padding: 0px 0px 0px 100px;
+}
+
+footer .column-4{
+    padding: 0px ;
+}
+
+footer .column-5{
+    padding: 0px 300px 0px 0px;
+}
+
+@media screen and (max-width: 700px){
+    header .title{
+        margin: 10px;
+    }
+    header .title h1{
+        font-size: 100px;
+        font-weight: 500;
+    }
+
+    .kids{
+        height: 850px;
+        flex-wrap: wrap;
+    }
+    .kids .column-1{
+        width: 100%;
+        padding: 20px 40px;
+    }
+    .kids .column-1 h2{
+        font-size: 50px;
+        text-align: left;
+    }
+    .kids .column-1 p{
+        font-size: 36px;
+    }
+    .kids .column-2{
+        width: 100%;
+        text-align: center;
+    }
+    .kids .column-2 img{
+        width: 400px;
+        padding: auto;
+    }
+
+    .ages{
+        height: 115vh;
+    }
+    .ages h2{
+        padding: 20px;
+        font-size: 50px;
+    }
+    .ages .gallery .element-g{
+        margin: 30px 10px;
+    }
+
+    .studio{
+        height: 980px;
+        flex-wrap: wrap;
+    }
+    .studio .column-1{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .studio .column-1 img{
+        width: 550px;
+    }
+    .studio .column-2{
+        width: 100%;
+        padding: 10px 60px;
+    }
+    .studio .column-2 h2{
+        font-size: 50px;
+    }
+    .studio .column-2 p{
+        font-size: 36px;
+    }
+    
+    .banner .banner-element{
+        width: 50%;
+    }
+
+    .eslogan{
+        height: 180px;
+    }
+
+    .eslogan h2{
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    footer .column-3{
+        width: 100%;
+        padding: 0px 40px;
+    }
+    footer .column-4{
+        padding: 0px 40px;
+    }
+}
